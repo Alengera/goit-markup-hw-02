@@ -1,0 +1,182 @@
+:root {
+  --accent-color: #404bbf;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-text-color: #434455;
+  --headings-color: #2e2f42;
+  --brand-color: #4d5ae5;
+  --background-color: #e5e5e5;
+  --team-background-color: #f4f4fd;
+  --subtle-background-color: #e7e9fc;
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+/* =======MENU========= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+.logo-first {
+  color: var(--brand-color);
+  font-family: var(--secondary-font);
+}
+.logo-second {
+  color: var(--headings-color);
+  font-family: var(--secondary-font);
+}
+.menu-link {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.current {
+  color: var(--accent-color);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--accent-color);
+}
+
+.email,
+.phone-number {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+/* =======HERO========== */
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* !!!!!!Temporary Background color!!!!! */
+.hero {
+  background-color: var(--headings-color);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+.hero-button:hover {
+  background-color: var(--accent-color);
+}
+
+/* ======FEATURES/SECTION 1======== */
+
+.section-subtitle {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===========ABOUT US/SECTION 2======== */
+.section-title {
+  color: var(--headings-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* ===========OUR TEAM/SECTION 3======== */
+.team-section {
+  background-color: var(--team-background-color);
+}
+.team-section .section-item {
+  background-color: #ffffff;
+}
+
+/* =========FOOTER================= *
+
+/* !!!!!!!!!!!!!!!!!===Temporarily background====== */
+.footer {
+  background-color: var(--headings-color);
+}
+
+.logo-second-footer {
+  color: var(--team-background-color);
+}
+.footer-text {
+  color: var(--subtle-background-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* =======PORTFOLIO PAGE============= */
+.portfolio-button {
+  font-style: inherit;
+  color: var(--brand-color);
+  background-color: var(--subtle-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.portfolio-list-name {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-name-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
