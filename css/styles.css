@@ -1,11 +1,11 @@
 :root {
   --accent-color: #404bbf;
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --primary-text-color: #434455;
   --headings-color: #2e2f42;
   --brand-color: #4d5ae5;
-  --background-color: #e5e5e5;
+  --background-color: #ffffff;
   --team-background-color: #f4f4fd;
   --subtle-background-color: #e7e9fc;
 }
@@ -17,8 +17,9 @@
   text-decoration: none;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: var(--background-color);
 }
 /* =======MENU========= */
 .logo {
@@ -88,8 +89,10 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
   color: #ffffff;
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 .hero-button:hover {
   background-color: var(--accent-color);
@@ -150,7 +153,7 @@ body {
 
 /* =======PORTFOLIO PAGE============= */
 .portfolio-button {
-  font-style: inherit;
+  font-family: inherit;
   color: var(--brand-color);
   background-color: var(--subtle-background-color);
   font-weight: 500;
@@ -160,12 +163,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 .portfolio-list-name {
   color: var(--headings-color);
